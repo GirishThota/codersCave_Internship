@@ -1,0 +1,44 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+section {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 2px solid #ddd;
+}
+
+#about p,
+#skills ul,
+#projects,
+#resume p,
+#contact p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.project img{
+    max-width: 100%;
+    border-radius: 5px;
+    margin-bottom: 25px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: static;
+    bottom: 0;
+    width: 100%;
+}
